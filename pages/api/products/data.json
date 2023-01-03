@@ -208,5 +208,12 @@
     "category": "accessories",
     "image": "https://imgur.com/faQ0IXH.png",
     "price": 13.99
+  },
+  {
+    "id": 31,
+    "product": "Switch Joy-Con 2",
+    "category": "accessories",
+    "image": "https://imgur.com/faQ0IXH.png",
+    "price": 15.99
   }
 ]
