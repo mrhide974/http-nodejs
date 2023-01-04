@@ -1,6 +1,6 @@
-import Link from 'next/link';
-import { useSelector } from 'react-redux';
-import styles from '../styles/Navbar.module.css';
+import Link from "next/link";
+import { useSelector } from "react-redux";
+import styles from "../styles/Navbar.module.css";
 
 const Navbar = () => {
   const cart = useSelector((state) => state.cart);
@@ -21,7 +21,7 @@ const Navbar = () => {
         </li>
         <li className={styles.navlink}>
           <Link href="/cart">
-            <a>Cart ({getItemsCount()})</a>
+            <span>Cart ({getItemsCount()})</span>
           </Link>
         </li>
       </ul>

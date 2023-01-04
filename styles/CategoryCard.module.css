@@ -7,7 +7,7 @@
 .image {
   object-fit: cover;
   border: 2px solid black;
-  transition: all 5s cubic-bezier(0.14, 0.96, 0.91, 0.6);
+  transition: all 3s cubic-bezier(0.14, 0.96, 0.91, 0.6);
 }
 
 .info {
@@ -24,7 +24,7 @@
 }
 
 .card:hover .image {
-  transform: scale(1.2);
+  transform: scale(1.05);
 }
 
 .card:hover .info {
